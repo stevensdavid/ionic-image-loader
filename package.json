@@ -1,6 +1,6 @@
 {
-  "name": "ionic-image-loader",
-  "version": "7.0.0",
+  "name": "@davidstevens/ionic-image-loader",
+  "version": "7.0.1",
   "description": "Ionic Component and Service to load images in a background thread and cache them for later use",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zyra/ionic-image-loader.git"
+    "url": "git+https://github.com/stevensdavid/ionic-image-loader.git"
   },
   "keywords": [
     "ionic2",
@@ -24,12 +24,12 @@
     "ionic",
     "angular2"
   ],
-  "author": "Zyra Media Inc.",
+  "author": "Zyra Media Inc. & David Stevens",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zyra/ionic-image-loader/issues"
+    "url": "https://github.com/stevensdavid/ionic-image-loader/issues"
   },
-  "homepage": "https://github.com/zyra/ionic-image-loader#readme",
+  "homepage": "https://github.com/stevensdavid/ionic-image-loader#readme",
   "devDependencies": {
     "@angular/common": "^18.0.0",
     "@angular/compiler": "^18.0.0",
