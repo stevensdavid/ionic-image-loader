@@ -1,6 +1,6 @@
 {
   "name": "ionic-image-loader",
-  "version": "6.3.3",
+  "version": "7.0.0",
   "description": "Ionic Component and Service to load images in a background thread and cache them for later use",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -31,26 +31,25 @@
   },
   "homepage": "https://github.com/zyra/ionic-image-loader#readme",
   "devDependencies": {
-    "@angular/common": "5.2.11",
-    "@angular/compiler": "5.2.11",
-    "@angular/compiler-cli": "5.2.11",
-    "@angular/core": "5.2.11",
-    "@angular/forms": "5.2.11",
-    "@angular/http": "5.2.11",
-    "@angular/platform-browser": "5.2.11",
-    "@angular/platform-browser-dynamic": "5.2.11",
-    "@ionic-native/core": "4.13.0",
-    "@ionic-native/file": "4.13.0",
-    "codelyzer": "^4.4.2",
+    "@angular/common": "^18.0.0",
+    "@angular/compiler": "^18.0.0",
+    "@angular/compiler-cli": "^18.0.0",
+    "@angular/core": "^18.0.0",
+    "@angular/forms": "^18.0.0",
+    "@angular/platform-browser": "^18.0.0",
+    "@angular/platform-browser-dynamic": "^18.0.0",
+    "@awesome-cordova-plugins/core": "^6.7.0",
+    "@awesome-cordova-plugins/file": "^6.7.0",
+    "@ionic/angular": "^8.2.1",
+    "codelyzer": "^6.0.2",
     "conventional-changelog-cli": "^2.0.1",
-    "ionic-angular": "^3.9.2",
     "rimraf": "^2.6.2",
-    "rxjs": "5.5.11",
+    "rxjs": ">=7.5.0",
     "tslint": "^5.11.0",
-    "typescript": "2.4.2",
-    "zone.js": "0.8.26"
+    "typescript": "~5.4.0",
+    "zone.js": "~0.14.0"
   },
   "peerDependencies": {
-    "@ionic-native/file": "^4.0.0"
+    "@awesome-cordova-plugins/file": "^6.7.0"
   }
 }

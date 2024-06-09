@@ -1,8 +1,8 @@
 import { HttpClient }             from '@angular/common/http';
 import { Injectable }             from '@angular/core';
-import { File, FileEntry }        from '@ionic-native/file';
-import { Platform }               from 'ionic-angular';
-import { fromEvent }              from 'rxjs/observable/fromEvent';
+import { File, FileEntry }        from '@awesome-cordova-plugins/file';
+import { Platform }               from '@ionic/angular';
+import { fromEvent }              from 'rxjs';
 import { first }                   from 'rxjs/operators';
 import { ImageLoaderConfig }       from './image-loader-config';
 
@@ -321,7 +321,7 @@ export class ImageLoader {
     };
 
     if (this.currentlyProcessing[currentItem.imageUrl] === undefined) {
-      this.currentlyProcessing[currentItem.imageUrl] = new Promise((resolve, reject) => {
+      this.currentlyProcessing[currentItem.imageUrl] = new Promise<void>((resolve, reject) => {
         // process more items concurrently if we can
         if (this.canProcess) { this.processQueue(); }
 
